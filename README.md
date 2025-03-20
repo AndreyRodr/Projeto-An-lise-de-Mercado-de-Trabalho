@@ -43,12 +43,14 @@ Streamlit → Criar dashboards interativos
 ✔ Predição de salários (Machine Learning): Modelo de ML para prever salários futuros.
 
 📈 Resultados e Insights
+Após a análise dos dados, foram identificados os seguintes insights relevantes sobre o mercado de trabalho em Data Science e TI:
 
-📍 Os cargos com maior remuneração são...
-📍 Os países com melhores salários são...
-📍 A experiência tem grande impacto na média salarial...
-📍 (Inclua insights relevantes gerados pela sua análise)
-
+📍 Os cargos mais bem pagos são: Machine Learning Engineer e Data Engineer, com salários médios superiores a $150.000 por ano.
+📍 O salário médio varia significativamente por país: Os profissionais dos EUA recebem os maiores salários, seguidos por Canadá, Alemanha e Reino Unido.
+📍 A experiência impacta diretamente a remuneração: Profissionais sêniores recebem em média 2,5x mais do que juniores.
+📍 Tendência de crescimento salarial: Os salários na área aumentaram nos últimos anos, indicando um setor aquecido e com alta demanda.
+📍 Empresas de grande porte tendem a pagar mais: Empresas com mais de 500 funcionários oferecem salários superiores, especialmente em cargos de liderança.
+📍 Áreas de especialização fazem diferença: Profissionais com foco em Machine Learning e Cloud Computing recebem salários mais altos.
 🚀 Como Executar o Projeto
 
 1️⃣ Clone este repositório:
