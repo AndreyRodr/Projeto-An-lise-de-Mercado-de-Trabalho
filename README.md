@@ -23,20 +23,20 @@ O dataset contém informações sobre:
 - **Streamlit** → Criar dashboards interativos
 
 ## 📊 Análises Realizadas
-✔ **Distribuição de salários**: Verificação da faixa salarial predominante no setor.
-✔ **Cargos mais comuns**: Identificação dos cargos mais presentes no mercado.
-✔ **Média salarial por nível de experiência**: Comparação entre júnior, pleno e sênior.
-✔ **Média salarial por país**: Análise dos melhores países para remuneração.
-✔ **Evolução salarial ao longo dos anos**: Tendência do mercado de trabalho.
-✔ **Correlação entre variáveis**: Identificação de fatores que impactam os salários.
+✔ **Distribuição de salários**: Verificação da faixa salarial predominante no setor.  
+✔ **Cargos mais comuns**: Identificação dos cargos mais presentes no mercado.  
+✔ **Média salarial por nível de experiência**: Comparação entre júnior, pleno e sênior.  
+✔ **Média salarial por país**: Análise dos melhores países para remuneração.  
+✔ **Evolução salarial ao longo dos anos**: Tendência do mercado de trabalho.   
+✔ **Correlação entre variáveis**: Identificação de fatores que impactam os salários.                                      
 ✔ **Predição de salários (Machine Learning)**: Modelo de ML para prever salários futuros.
 
 ## 📈 Resultados e Insights
-📍 **Os cargos mais bem pagos são:** Machine Learning Engineer e Data Engineer, com salários médios superiores a $150.000 por ano.
-📍 **O salário médio varia significativamente por país:** Os profissionais dos EUA recebem os maiores salários, seguidos por Canadá, Alemanha e Reino Unido.
-📍 **A experiência impacta diretamente a remuneração:** Profissionais sêniores recebem em média 2,5x mais do que juniores.
-📍 **Tendência de crescimento salarial:** Os salários na área aumentaram nos últimos anos, indicando um setor aquecido e com alta demanda.
-📍 **Empresas de grande porte tendem a pagar mais:** Empresas com mais de 500 funcionários oferecem salários superiores, especialmente em cargos de liderança.
+📍 **Os cargos mais bem pagos são:** Machine Learning Engineer e Data Engineer, com salários médios superiores a $150.000 por ano.       
+📍 **O salário médio varia significativamente por país:** Os profissionais dos EUA recebem os maiores salários, seguidos por Canadá, Alemanha e Reino Unido.  
+📍 **A experiência impacta diretamente a remuneração:** Profissionais sêniores recebem em média 2,5x mais do que juniores.  
+📍 **Tendência de crescimento salarial:** Os salários na área aumentaram nos últimos anos, indicando um setor aquecido e com alta demanda.  
+📍 **Empresas de grande porte tendem a pagar mais:** Empresas com mais de 500 funcionários oferecem salários superiores, especialmente em cargos de liderança.  
 📍 **Áreas de especialização fazem diferença:** Profissionais com foco em Machine Learning e Cloud Computing recebem salários mais altos.
 
 ## 📊 Dashboard Interativo
@@ -71,8 +71,8 @@ streamlit run dashboard.py
 ```
 
 ## 📌 Próximos Passos
-🔹 Refinar o modelo de previsão salarial
-🔹 Integrar mais fontes de dados para análises mais completas
+🔹 Refinar o modelo de previsão salarial  
+🔹 Integrar mais fontes de dados para análises mais completas  
 🔹 Melhorar a organização do código utilizando classes e funções
 
 ---
