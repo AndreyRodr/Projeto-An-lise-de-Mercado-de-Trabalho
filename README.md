@@ -72,7 +72,7 @@ streamlit run dashboard.py
 ## 📌 Próximos Passos
 🔹 Refinar o modelo de previsão salarial  
 🔹 Integrar mais fontes de dados para análises mais completas  
-🔹 Melhorar a organização do código utilizando classes e funções
+🔹 Melhorar a organização do código
 
 ---
 📢 **Contribuições são bem-vindas!** Caso tenha sugestões ou melhorias, fique à vontade para abrir uma issue ou pull request. 😊
