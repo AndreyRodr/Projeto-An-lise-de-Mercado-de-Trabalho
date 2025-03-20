@@ -28,7 +28,6 @@ O dataset contém informações sobre:
 ✔ **Média salarial por nível de experiência**: Comparação entre júnior, pleno e sênior.  
 ✔ **Média salarial por país**: Análise dos melhores países para remuneração.  
 ✔ **Evolução salarial ao longo dos anos**: Tendência do mercado de trabalho.   
-✔ **Correlação entre variáveis**: Identificação de fatores que impactam os salários.                                      
 ✔ **Predição de salários (Machine Learning)**: Modelo de ML para prever salários futuros.
 
 ## 📈 Resultados e Insights
