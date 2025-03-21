@@ -15,12 +15,12 @@ O dataset contém informações sobre:
 📌 Fonte dos dados: [Data Science Job Salaries - Kaggle](https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries)
 
 ## 🛠️ Tecnologias Utilizadas
-- **Python** → Linguagem principal do projeto
+- **Python** → Linguagem principal para manipulação e análise dos dados.
 - **Pandas** → Manipulação e limpeza de dados
-- **Matplotlib** e **Seaborn** → Visualização de dados
-- **Scikit-learn** → Machine Learning para previsão salarial (opcional)
-- **Jupyter Notebook** → Documentação e análise exploratória
-- **Streamlit** → Criar dashboards interativos
+- **Matplotlib** e **Seaborn** → Para criação de gráficos e visualizações.
+- **Scikit-learn** → Para criação de modelos de Machine Learning para prever salários.
+- **Jupyter Notebook** → Para exploração de dados e prototipação dos modelos.
+- **Streamlit** → Para construir um dashboard interativo e visualização dos dados.
 
 ## 📊 Análises Realizadas
 ✔ **Distribuição de salários**: Verificação da faixa salarial predominante no setor.  
