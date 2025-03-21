@@ -1,23 +1,52 @@
-# Importando bibliotecas
 import pandas as pd
 
-# Carregando o dataset original
-df = pd.read_csv("./dataset/dados_originais.csv")
+class LimpezaDados:
+    def __init__(self, arquivo_entrada, arquivo_saida):
+        """Inicializa a classe com os arquivos de entrada e saída"""
+        self.arquivo_entrada = arquivo_entrada
+        self.arquivo_saida = arquivo_saida
+        self.df = None
 
-# Verificando valores nulos
-print("Valores nulos por coluna:")
-print(df.isnull().sum())
+    def carregar_dados(self):
+        """Carrega os dados do arquivo CSV"""
+        self.df = pd.read_csv(self.arquivo_entrada)
+        print("Dataset carregado com sucesso!")
 
-# Removendo valores nulos
-df = df.dropna()
+    def verificar_valores_nulos(self):
+        """Exibe a contagem de valores nulos por coluna"""
+        nulos = self.df.isnull().sum()
+        print("Valores nulos por coluna:\n", nulos)
 
-# Verificando valores duplicados
-print("Valores duplicados:", df.duplicated().sum())
+    def remover_valores_nulos(self):
+        """Remove todas as linhas com valores nulos"""
+        self.df = self.df.dropna()
+        print("Valores nulos removidos!")
 
-# Removendo duplicatas
-df = df.drop_duplicates()
+    def verificar_duplicatas(self):
+        """Exibe a quantidade de registros duplicados"""
+        duplicatas = self.df.duplicated().sum()
+        print(f"Valores duplicados: {duplicatas}")
 
-# Salvando o dataset limpo
-df.to_csv("dados_limpos.csv", index=False)
+    def remover_duplicatas(self):
+        """Remove registros duplicados"""
+        self.df = self.df.drop_duplicates()
+        print("Valores duplicados removidos!")
 
-print("Dados limpos e salvos em 'dados_limpos.csv'.")
+    def salvar_dados_limpos(self):
+        """Salva o dataset limpo em um novo arquivo"""
+        self.df.to_csv(self.arquivo_saida, index=False)
+        print(f"Dados limpos salvos em '{self.arquivo_saida}'.")
+
+    def executar_limpeza(self):
+        """Executa todas as etapas de limpeza"""
+        self.carregar_dados()
+        self.verificar_valores_nulos()
+        self.remover_valores_nulos()
+        self.verificar_duplicatas()
+        self.remover_duplicatas()
+        self.salvar_dados_limpos()
+
+# Executando a limpeza dos dados
+if __name__ == "__main__":
+    limpeza = LimpezaDados("./dataset/dados_originais.csv", "./dataset/dados_limpos.csv")
+    limpeza.executar_limpeza()
