@@ -31,9 +31,9 @@ O dataset contém informações sobre:
 ✔ **Predição de salários (Machine Learning)**: Modelo de ML para prever salários futuros.
 
 ## 📈 Resultados e Insights
-📍 **Os cargos mais bem pagos são:** Machine Learning Engineer e Data Engineer, com salários médios superiores a $150.000 por ano.       
-📍 **O salário médio varia significativamente por país:** Os profissionais dos EUA recebem os maiores salários, seguidos por Canadá, Alemanha e Reino Unido.  
-📍 **A experiência impacta diretamente a remuneração:** Profissionais sêniores recebem em média 2,5x mais do que juniores.  
+📍 **Os cargos mais bem pagos são:** Os cargos com as maiores remunerações são Data Analytics Lead ($405,000), Principal Data Engineer ($328,333) e Financial Data Analyst ($275,000), demonstrando que posições de liderança e áreas estratégicas tendem a oferecer salários elevados.       
+📍 **O salário médio varia significativamente por país:** Os países com os maiores salários médios são Rússia ($157,500), Estados Unidos ($144,055) e Nova Zelândia ($125,000), indicando que oportunidades bem remuneradas não se limitam aos mercados tradicionais da América do Norte e Europa.  
+📍 **A experiência impacta diretamente a remuneração:** Profissionais sêniores ganham, em média, 2,2x mais do que juniores, enquanto executivos recebem até 3,2x mais. Isso destaca a importância do avanço na carreira e da especialização para melhores salários.
 📍 **Tendência de crescimento salarial:** Os salários na área aumentaram nos últimos anos, indicando um setor aquecido e com alta demanda.  
 📍 **Empresas de grande porte tendem a pagar mais:** Empresas com mais de 500 funcionários oferecem salários superiores, especialmente em cargos de liderança.  
 📍 **Áreas de especialização fazem diferença:** Profissionais com foco em Machine Learning e Cloud Computing recebem salários mais altos.
